@@ -1,5 +1,5 @@
 {
-    "name": "SaintSeraphim/laravel_cas_server",
+    "name": "saint_seraphim/laravel_cas_server",
     "description": "A laravel package provides CAS server implementation",
     "type": "library",
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "leo108",
             "email": "leo108@qq.com"
+        },
+        {
+            "name": "Saint Seraphim",
+            "email": "juliana@tic.ufrj.br"
         }
     ],
     "require": {
