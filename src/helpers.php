@@ -14,9 +14,12 @@ namespace Leo108\CAS;
  * @param bool   $absolute
  * @return string
  */
-function cas_route($name, $parameters = [], $absolute = true)
+if (!function_exists(__NAMESPACE__ . '\cas_route'))
 {
-    $name = config('cas.router.name_prefix').$name;
+	function cas_route($name, $parameters = [], $absolute = true)
+	{
+		$name = config('cas.router.name_prefix').$name;
 
-    return route($name, $parameters, $absolute);
+		return route($name, $parameters, $absolute);
+	}
 }
