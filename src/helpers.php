@@ -6,8 +6,6 @@
  * Time: 11:25
  */
 
-namespace Leo108\CAS;
-
 /**
  * @param string $name
  * @param array  $parameters
